@@ -7,6 +7,13 @@ end
 
 gem 'rails_12factor', group: :production
 gem 'pg'
+gem 'bootstrap-sass', '~> 3.3.5.1'
+gem 'sprockets'
+gem 'prettyphoto-rails'
+gem 'font-awesome-rails'
+gem 'font-awesome-sass'
+gem 'animate-rails'
+gem 'jquery-ui-rails'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.1'
 # Use mysql as the database for Active Record
