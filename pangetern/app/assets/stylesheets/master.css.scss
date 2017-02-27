@@ -1,0 +1,51 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.About_ex{
+  font-size: 18px;
+  margin-top: 25px;
+}
+
+.simple_form .form-control,.form-control { 
+    border: solid 1px #CCC;
+    background: #fff !important;
+    box-shadow: none !important;
+    height: 100%;
+    width: 100%;
+}
+
+.form-control {
+    height: 44px;
+}
+
+
+input:hover, textarea:hover,
+input:focus, textarea:focus { 
+    border-color: #C9C9C9; 
+}
+.simple_form label {
+  float: left;
+  width: 20%;
+  text-align: left;
+  margin: 2px 10px;
+}
+
+.simple_form input {
+  margin-bottom: 10px;
+  clear: both;
+  width: 80%;
+  min-height: 30px;
+}
+
+
+.simple_form textarea{
+  width: 100%;
+  min-height: 100px;
+}
+
+.simple_form .button {
+  margin-top: 10px;
+  clear: both;
+  width: 30%;
+  min-height: 30px;
+}

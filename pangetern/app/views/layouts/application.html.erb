@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <title>Pangetern</title>
+    <%= csrf_meta_tags %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %> 
+
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+      <meta charset="utf-8">
+      <meta name="description" content="Agency Parallax Responsive HTML5/CSS3 Template from FIFOTHEMES.COM">
+      <meta name="author" content="FIFOTHEMES.COM">
+      <!-- Mobile Metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Google Fonts -->
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Raleway:400,500,600,700' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine" />
+      
+      <!-- Favicons -->
+      <link rel="shortcut icon" href="/assets/ico/logo.ico">
+      <link rel="apple-touch-icon" href="/assets/ico/logo.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="/assets/ico/logo.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="/assets/ico/logo.png">
+      <link rel="apple-touch-icon" sizes="144x144" href="/assets/ico/logo.png">
+      <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
+      <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="js/respond.min.js"></script>
+      <![endif]-->
+      <!--[if IE]>
+      <link rel="stylesheet" href="css/ie.css">
+      <![endif]-->
+  </head>
+<body data-spy="scroll" data-target="#navigation" data-offset="150">
+      <!-- Page Preloader -->
+       <div class="page-mask">
+            <div class="page-loader"> 
+
+                <div class="spinner"></div>
+            </div>
+      </div>
+      <!-- /Page Preloader -->
+
+      <!-- Warpper -->
+      <div class="wrap">
+      <header id="section0" class="parallax-slider">
+            <!-- Fullscreen Slider -->
+<%= render partial: 'partials/top' %>
+            <!-- /Full Screen Slider -->
+
+            <!-- Navigation -->
+<%= render partial: 'partials/navbar' %>
+            <!-- /Navigation -->                          
+      </header>
+
+      <!-- /Header -->
+
+      <!-- Scroll To Top --> 
+      <a href="#" class="scrollup"><i class="fa fa-angle-up"></i></a>     
+      <!-- The Scripts -->
+      
+      </div>
+      <!-- /Warpper -->
+</body> 
+    <%= yield %>
+<%= render partial: 'partials/footer' %>     
+</html>

@@ -1,6 +1,6 @@
 // Spinning Icons
 // --------------------------
-
+$fa-css-prefix: fa !default;
 .#{$fa-css-prefix}-spin {
   -webkit-animation: fa-spin 2s infinite linear;
           animation: fa-spin 2s infinite linear;
